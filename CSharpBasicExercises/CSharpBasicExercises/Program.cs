@@ -22,6 +22,9 @@ namespace CSharpBasicExercises
                     case 3:
                         StringExercises.StringMain();
                         break;
+                    case 4:
+                        FileExercises.FileMain();
+                        break;
                     case -1:
                         Console.WriteLine("Exiting program...");
                         return;
@@ -39,6 +42,7 @@ Choose an option;
 1) Control Flow Excercises
 2) Arrays and Lists Excercises
 3) String Excercises
+4) File Exercises
 -1) Close program
 Note: This program does not contain input validation, so watch out ;)
 
